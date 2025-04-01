@@ -18,7 +18,7 @@ module.exports = {
   // List of all supported chainIds. Used to populate the Chains user preferences list.
   chainIdsSupported: [1, 137, 10, 5, 80001, 11155111],
 
-  customProviderUrl: process.env.NEXT_PUBLIC_PROVIDER_URL,
+  customProviderUrl: process.env.NEXT_PUBLIC_PROVIDER_URL || 'https://v4.provider.oceanprotocol.com',
 
   defaultDatatokenTemplateIndex: 2,
   // The ETH address the marketplace fee will be sent to.
