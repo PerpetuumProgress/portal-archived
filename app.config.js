@@ -13,8 +13,7 @@ module.exports = {
   // This preselects the Chains user preferences.
   chainIds: [5, 1, 137, 10],
   infuraProjectId:
-    process.env.NEXT_PUBLIC_INFURA_PROJECT_ID ||
-    '5ffc47f65c4042ce847ef66a3fa70d4c',
+    '6a3e18dfad90440aa5ad64e8f71d9da9',
   // List of all supported chainIds. Used to populate the Chains user preferences list.
   chainIdsSupported: [1, 137, 10, 5, 80001, 11155111],
 
